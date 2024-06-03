@@ -1,14 +1,13 @@
 # TurboPI
 
-TurboPI is a blazing fast pi approximator written in Rust that can approximate pi up to 100 decimal digits.
+TurboPI is a blazing-fast pi approximator written in Rust that can approximate pi up to 100 decimal digits.
 
 ## Features
 
 - Approximates pi up to **100 decimal digits**.
 - Written in **Rust** for optimal performance.
 - Blazing fast computation speed.
-- Easy to use and integrate into your projects.
-
+  
 ## Usage
 
    ```bash
