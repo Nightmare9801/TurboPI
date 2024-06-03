@@ -46,6 +46,8 @@ fn main() {
     {
     println!("{}", compute());
     }
+    let elapsed = now.elapsed();
+    println!("Time Taken: {:.2?}", elapsed);
     println!("Enter any character to exit");
     let mut input = String::new();
     match io::stdin().read_line(&mut input) {
