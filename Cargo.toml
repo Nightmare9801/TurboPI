@@ -1,0 +1,23 @@
+[package]
+name = "picalculator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+criterion = "0.3"
+rayon = "1.5"
+bigdecimal = "0.4"
+num-bigint = "0.4"
+
+[[bench]]
+name = "benchmark_pi"
+harness = false
+
+[profile.release]
+debug = 1
+
+[rust]
+debuginfo-level = 1
+
