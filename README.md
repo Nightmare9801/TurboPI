@@ -11,7 +11,7 @@ TurboPI is a blazing-fast pi approximator written in Rust that can approximate p
 ## Usage
 
    ```bash
-   git clone https://github.com/Nightmare9801/TurboPI/new/main?filename=README.md
+   git clone https://github.com/Nightmare9801/TurboPI
 
    cd picalculator
 
